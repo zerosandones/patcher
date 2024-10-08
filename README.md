@@ -1,2 +1,3 @@
-# mongo-patch
-Library to allow for patch updated to MongoDB documents
+# Patcher
+
+Library to allow for patch updates to MongoDB documents.
