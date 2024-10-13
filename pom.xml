@@ -66,6 +66,12 @@
             <version>2.0.1</version>
             <scope>tests</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>5.2.0</version>
+            <scope>tests</scope>
+        </dependency>
     </dependencies>
 
     <build>
