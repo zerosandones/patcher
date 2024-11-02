@@ -30,7 +30,7 @@ jobs:
       with:
         mongodb-version: ${{ matrix.mongodb-version }}
         mongodb-username: root
-        mongodb-password: some random password
+        mongodb-password: "some random password"
 
     - name: Set up JDK 21
       uses: actions/setup-java@v4
