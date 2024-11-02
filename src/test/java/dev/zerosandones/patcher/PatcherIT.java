@@ -40,7 +40,7 @@ class PatcherIT {
 
     @BeforeAll
     public static void testsInit() {
-        String uri = "mongodb://root:some%20random%20password@localhost:27017/";
+        String uri = "mongodb://localhost:27017/";
         
         ServerApi serverApi = ServerApi.builder()
                 .version(ServerApiVersion.V1)
